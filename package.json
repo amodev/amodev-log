@@ -1,0 +1,16 @@
+{
+  "name": "amodev-log",
+  "version": "0.0.1",  
+  "main": "lib",
+  "scripts": {
+    "start": "babel src/ --source-maps --out-dir lib/ --watch",
+    "build": "babel src/ --source-maps --out-dir lib/"
+  },
+  "dependencies": {
+    "ptz-log": "^1.2.3",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  }
+}
